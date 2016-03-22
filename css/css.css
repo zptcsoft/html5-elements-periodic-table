@@ -91,11 +91,20 @@
     user-select: none;
 }
 
+.wrapper .ele a{
+	text-decoration: none;
+	color: #fff;
+}
+
 .wrapper .ele:hover {
     background: rgba(255, 255, 255, .8);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
     border-radius: 1px;
     cursor: pointer;
+}
+
+.wrapper .ele:hover a{
+	color: #000;
 }
 
 .wrapper .ele:empty {

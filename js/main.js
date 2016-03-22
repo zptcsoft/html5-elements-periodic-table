@@ -7,3 +7,8 @@ $(".wrapper button")
 	},function(){
 		$(".wrapper .ele").removeClass('unactive');
 	});
+
+$(".wrapper .ele:not(:empty)").each(function(index, el) {
+	var ele=el.innerHTML;
+	el.innerHTML="<a href='html5.html#"+ele+"'>"+ele+"</a>";
+});
