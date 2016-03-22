@@ -1,0 +1,161 @@
+.wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 94%;
+    min-height: 740px;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper .origin {
+    -webkit-flex: 1 1 400px;
+    -ms-flex: 1 1 400px;
+    flex: 1 1 400px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.wrapper .extra {
+    -webkit-flex: 1 1 140px;
+    -ms-flex: 1 1 140px;
+    flex: 1 1 140px;
+    width: 86%;
+    margin-top: 40px;
+    -ms-flex-item-align: end;
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.wrapper .row {
+    -webkit-flex: 1 1 40px;
+    -ms-flex: 1 1 40px;
+    flex: 1 1 40px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.wrapper .extra .row {
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.wrapper .ele {
+    -webkit-flex: 1 1 60px;
+    -ms-flex: 1 1 60px;
+    flex: 1 1 60px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.4);
+    border-radius: 4px;
+    max-width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 2px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.wrapper .ele:empty {
+    box-shadow: 1px 1px 2px rgba(0,0,0,0);
+}
+
+.wrapper .controls{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.wrapper .controls .control{
+	margin: 10px 0;
+	text-align: right;
+}
+.wrapper .controls button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 32px;
+    font-size: 0.8em;
+}
+
+.wrapper footer {
+    -webkit-flex: 1 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    text-align: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-flow: column-reverse;
+    -ms-flex-flow: column-reverse;
+    flex-flow: column-reverse;
+}
+.the-root-element{
+  background: #7CC97E;
+}
+.document-metadata{
+  background: #6473D1;
+}
+.sections{
+  background: #CF7B56;
+}
+.grouping-content{
+  background: #8490D1;
+}
+.text-level-semantics{
+  background: #4EB750;
+}
+.tabular-data{
+  background: #CDCD57;
+}
+.forms{
+  background: #CF7E4A;
+}
+.edits{
+  background: #9F3ADA;
+}
+.scripting{
+  background: #10F4ED;
+}
+.embedded-content{
+  background: #D17ED3;
+}
+.web-components{
+  background: #abab00;
+}
+.ele.unactive{
+	opacity:.2;
+}
