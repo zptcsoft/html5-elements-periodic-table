@@ -89,6 +89,14 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+<<<<<<< HEAD
+=======
+}
+
+.wrapper .ele a{
+	text-decoration: none;
+	color: #fff;
+>>>>>>> origin/gh-pages
 }
 
 .wrapper .ele:hover {
@@ -96,6 +104,13 @@
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
     border-radius: 1px;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+}
+
+.wrapper .ele:hover a{
+	color: #000;
+>>>>>>> origin/gh-pages
 }
 
 .wrapper .ele:empty {
